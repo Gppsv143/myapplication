@@ -2,18 +2,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: mc-app
+  name: myapp
   labels:
-    app: mc-app
+    app: myapp
 spec:
   replicas: 4
   selector:
     matchLabels:
-      app: mc-app
+      app: myapp
   template:
     metadata:
       labels:
-        app: mc-app
+        app: myapp
     spec:
       containers:
       - name: mc-app
