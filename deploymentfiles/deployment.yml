@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: mc-app
-        image: naidu289/myapplication:xyz
+        image: naidu289/mycicdapplication:6
         ports:
         - containerPort: 8080
