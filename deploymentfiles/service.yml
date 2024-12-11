@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: mc-app-service
+  name: myapplication-service
 spec:
   type: LoadBalancer
   ports:
@@ -10,4 +10,4 @@ spec:
     targetPort: 8080
     protocol: TCP
   selector:
-    app: mc-app
+    app: myapplication
